@@ -1,5 +1,5 @@
 <?php
-// Datos
+// El link de la API
 $token = 'apis-token-1.aTSI1U7KEuT-6bbbCguH-4Y8TI6KS73N';
 $dni = $_REQUEST['dni'];
 

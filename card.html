@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<head>
+	<!--
+		Tomar una fotografía y guardarla en un archivo v3
+	    @date 2018-10-22
+	    @author parzibyte
+	    @web parzibyte.me/blog
+	-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<style>
+		@media only screen and (max-width: 25px) {
+			video {
+				max-width: 25%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Selecciona un dispositivo</h1>
+	<div>
+		<select name="listaDeDispositivos" id="listaDeDispositivos" class="form-select-sm"></select>
+		<button id="boton" class="btn btn-warning">Tomar foto</button>
+		<p id="estado"></p>
+		<p id="estado2"></p>
+	</div>
+	<br>
+	<video muted="muted" id="video"></video>
+	<canvas id="canvas" style="display: none;"></canvas>
+</body>
+<script src="script.js"></script>
+
+</html>

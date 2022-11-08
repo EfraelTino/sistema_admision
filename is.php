@@ -2,7 +2,7 @@
 include('./include/conexion.php');
 include('./include/busquedas.php');
 ?>
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -86,7 +86,7 @@ include('./include/busquedas.php');
 				<div class="x_panel">
 					<div class="x_content">
 						<br />
-						<div id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+						<form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
 							<div class="form-group">
 								<label class="col-sm-3 control-label">Ingresar DNI:</label>
 								<div class="col-md-5 col-sm-6 col-xs-12">
@@ -246,7 +246,7 @@ include('./include/busquedas.php');
 									<input type="text" id="nombres" class="form-control col-md-7 col-xs-12" name="middle-name">
 								</div>
 							</div>
-						</div>
+						</form>
 					</div>
 				</div>
 			</div>
